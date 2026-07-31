@@ -1,4 +1,4 @@
-# Society Sparkle Dashboard
+# Society-Fund-Transparency-Dashboard
 
 A modern React and TanStack Start dashboard for managing society finances, residents, records, and reports.
 
