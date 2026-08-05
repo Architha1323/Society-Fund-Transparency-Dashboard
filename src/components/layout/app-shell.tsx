@@ -259,20 +259,22 @@ export function AppShell({ children }: { children: ReactNode }) {
               {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
 
-            <button
+            <Link
+              to="/notifications"
               aria-label="Notifications"
               className="relative grid h-9 w-9 place-items-center rounded-lg text-muted-foreground hover:bg-accent/40"
             >
               <Bell className="h-4 w-4" />
               <span className="absolute right-2 top-2 h-1.5 w-1.5 rounded-full bg-accent" />
-            </button>
+            </Link>
 
-            <button
+            <Link
+              to="/profile"
               aria-label="Profile"
               className="grid h-9 w-9 place-items-center rounded-lg text-muted-foreground hover:bg-accent/40"
             >
               <UserCircle className="h-4.5 w-4.5" />
-            </button>
+            </Link>
           </div>
         </header>
 
